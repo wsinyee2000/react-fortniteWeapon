@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css",
+    "main.js": "/react-fortniteWeapon/static/js/main.1a1b902f.chunk.js",
+    "main.js.map": "/react-fortniteWeapon/static/js/main.1a1b902f.chunk.js.map",
+    "runtime-main.js": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js",
+    "runtime-main.js.map": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js.map",
+    "static/js/2.44436f3f.chunk.js": "/react-fortniteWeapon/static/js/2.44436f3f.chunk.js",
+    "static/js/2.44436f3f.chunk.js.map": "/react-fortniteWeapon/static/js/2.44436f3f.chunk.js.map",
+    "index.html": "/react-fortniteWeapon/index.html",
+    "precache-manifest.1d28bab175955bccd000f6534fdce536.js": "/react-fortniteWeapon/precache-manifest.1d28bab175955bccd000f6534fdce536.js",
+    "service-worker.js": "/react-fortniteWeapon/service-worker.js",
+    "static/css/main.5f45ab8f.chunk.css.map": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css.map",
+    "static/js/2.44436f3f.chunk.js.LICENSE.txt": "/react-fortniteWeapon/static/js/2.44436f3f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f947090.js",
+    "static/js/2.44436f3f.chunk.js",
+    "static/css/main.5f45ab8f.chunk.css",
+    "static/js/main.1a1b902f.chunk.js"
+  ]
+}
