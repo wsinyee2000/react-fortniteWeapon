@@ -1,0 +1,43 @@
+.weapon_detail {
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.weapon_detail_nameandarrow {
+    display: flex;
+}
+
+.weapon_detail_arrow {
+    margin: 10px 60px;
+    height: fit-content;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.weapon_detail_name {
+    font-size: 40px;
+}
+
+.weapon_detail_imgandcontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.weapon_detail img {
+    width: 35%;
+    height: 60%;
+    margin-right: 15px;
+}
+
+.weapon_detail_content {
+    width: 45%;
+    height: 45%;
+}
+
+.weapon_detail_content p {
+    font-size: 21px;
+    margin: 10px;
+}

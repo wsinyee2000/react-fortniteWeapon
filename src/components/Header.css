@@ -1,0 +1,28 @@
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header ul {
+    margin-right: 15px;
+    list-style-type: none;
+    display: flex;
+}
+
+.header a {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header img {
+    width: 200px;
+    height: 100px;
+}

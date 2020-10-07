@@ -1,0 +1,19 @@
+To fix List:
+mutiple filter for type and rarity
+
+
+fixed:
+remove extra item 
+images in weapon detail 
+fix the top menu bar position to stacky
+pass pickedWeapon from WeaponList to WeaponDetail
+refresh error on WeaponDetail page
+
+Want to add:
+filter and sort bar on the Weapon List on top (done)
+fix the position in the Weapon Detail (css) (done)
+Serch bar at the top of the weapon list 
+
+
+
+

@@ -1,0 +1,35 @@
+.Weapon_List_Header {
+    background-color: cadetblue;
+    width: 100%;
+    /* position: sticky;
+    top: 100px;
+    z-index: 100; */
+    /* display: flex; */
+}
+
+.sort_list {
+    display: flex;
+    margin: 10px
+}
+
+.sort_list label {
+    font-weight: 500;
+}
+
+.Weapon_List_Header img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px
+}
+
+.rarity_filter_list,
+.type_filter_list {
+    display: flex;
+    margin: 10px
+}
+
+.rarity_filter_list label,
+.type_filter_list label {
+    margin: 5px;
+}

@@ -1,0 +1,22 @@
+.weapon_list {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+
+.weapons {
+    margin: 50px;
+}
+
+.weapons img {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.weapons p {
+    text-align: center;
+}
