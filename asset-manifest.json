@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css",
-    "main.js": "/react-fortniteWeapon/static/js/main.09f986d7.chunk.js",
-    "main.js.map": "/react-fortniteWeapon/static/js/main.09f986d7.chunk.js.map",
+    "main.js": "/react-fortniteWeapon/static/js/main.08b9e0e4.chunk.js",
+    "main.js.map": "/react-fortniteWeapon/static/js/main.08b9e0e4.chunk.js.map",
     "runtime-main.js": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js",
     "runtime-main.js.map": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js.map",
-    "static/js/2.02cc5931.chunk.js": "/react-fortniteWeapon/static/js/2.02cc5931.chunk.js",
-    "static/js/2.02cc5931.chunk.js.map": "/react-fortniteWeapon/static/js/2.02cc5931.chunk.js.map",
+    "static/js/2.2227e7b7.chunk.js": "/react-fortniteWeapon/static/js/2.2227e7b7.chunk.js",
+    "static/js/2.2227e7b7.chunk.js.map": "/react-fortniteWeapon/static/js/2.2227e7b7.chunk.js.map",
     "index.html": "/react-fortniteWeapon/index.html",
-    "precache-manifest.a0e04d92d841b01110089127814684e9.js": "/react-fortniteWeapon/precache-manifest.a0e04d92d841b01110089127814684e9.js",
+    "precache-manifest.8a116f98dacddd2fa5978e89e7869943.js": "/react-fortniteWeapon/precache-manifest.8a116f98dacddd2fa5978e89e7869943.js",
     "service-worker.js": "/react-fortniteWeapon/service-worker.js",
     "static/css/main.5f45ab8f.chunk.css.map": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css.map",
-    "static/js/2.02cc5931.chunk.js.LICENSE.txt": "/react-fortniteWeapon/static/js/2.02cc5931.chunk.js.LICENSE.txt",
+    "static/js/2.2227e7b7.chunk.js.LICENSE.txt": "/react-fortniteWeapon/static/js/2.2227e7b7.chunk.js.LICENSE.txt",
     "static/media/home_img.jpg": "/react-fortniteWeapon/static/media/home_img.5e6bf5cd.jpg",
+    "static/media/no-image-available.jpg": "/react-fortniteWeapon/static/media/no-image-available.d704bd89.jpg",
     "static/media/toppng.com-fortnite-logo-vector-download-logo-fortnite-1600x1599.png": "/react-fortniteWeapon/static/media/toppng.com-fortnite-logo-vector-download-logo-fortnite-1600x1599.9d15133c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7f947090.js",
-    "static/js/2.02cc5931.chunk.js",
+    "static/js/2.2227e7b7.chunk.js",
     "static/css/main.5f45ab8f.chunk.css",
-    "static/js/main.09f986d7.chunk.js"
+    "static/js/main.08b9e0e4.chunk.js"
   ]
 }
