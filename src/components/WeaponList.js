@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import no_image from './img/no-image-available.jpg'
 
 const WeaponList = ({ weapon, showLastDisplay }) => {
 

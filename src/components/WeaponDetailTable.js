@@ -1,4 +1,6 @@
 import React from 'react'
+import back_arrow from './img/back-arrow.png'
+import no_image from './img/no-image-available.jpg'
 
 function WeaponDetailTable(weapon) {
     return (
@@ -7,7 +9,7 @@ function WeaponDetailTable(weapon) {
             <div className="weapon_detail_nameandarrow">
               
                 <div className="weapon_detail_arrow" onClick={function goBack() {window.history.back();}} >
-                    <img src="/back-arrow.png" alt=""/>
+                    <img src={back_arrow} alt=""/>
                 </div>
                 <h2 className="weapon_detail_name">{weapon.name}</h2>
             </div>

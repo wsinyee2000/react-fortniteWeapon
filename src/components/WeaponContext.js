@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react'
+import weaponData from './data/data.json'
 import axios from 'axios'
 
 export const WeaponContext = createContext();
@@ -11,7 +12,7 @@ export const WeaponProvider = props => {
 
         // get json file
         // const reqWeapons = async () => {
-        //     const data = await fetch("/data.json");
+        //     const data = await fetch(weaponData);
         //     const items = await data.json();
 
         //     //change null images weapon to 'no image available'
@@ -26,28 +27,51 @@ export const WeaponProvider = props => {
         // reqWeapons();
 
         //axios method
-        axios
-            .get('/data.json')
-            .then(res => {
-                // console.log(res)
-                //change null images weapon to 'no image available'
-                res.data.weapons.forEach(weapon => {
-                    weapon.images.background = (weapon.images.background === null) ? '/no-image-available.jpg' : weapon.images.background
-                });
+        // axios
+        //     .get('../data.json')
+        //     .then(res => {
+        //         console.log(res)
 
-                //remove same id weapon
-                res.data.weapons = getUnique(res.data.weapons, 'id')
+        //         //change null images weapon to 'no image available'
+        //         res.data.weapons.forEach(weapon => {
+        //             weapon.images.background = (weapon.images.background === null) ? '/no-image-available.jpg' : weapon.images.background
+        //         });
 
-                //sort by ID
-                res.data.weapons = res.data.weapons.sort((a, b) => (
-                    a['id'] > b['id'] ? 1 : - 1
-                ));
+        //         //remove same id weapon
+        //         res.data.weapons = getUnique(res.data.weapons, 'id')
 
-                setWeapons(res.data.weapons)
-            })
-            .catch(err =>
-                console.log(err)
-            )
+        //         //sort by ID
+        //         res.data.weapons = res.data.weapons.sort((a, b) => (
+        //             a['id'] > b['id'] ? 1 : - 1
+        //         ));
+
+        //         setWeapons(res.data.weapons)
+        //     })
+        //     .catch(err =>
+        //         console.log(err)
+        //     )
+
+        //new method    
+        
+        let temp_weapons = weaponData.weapons;
+
+        //change null images weapon to 'no image available'
+        temp_weapons.forEach(weapon => {
+            weapon.images.background = (weapon.images.background === null) ? './img/no-image-available.jpg' : weapon.images.background
+        });
+
+        //remove same id weapon
+        temp_weapons = getUnique(temp_weapons, 'id')
+
+        //sort by ID
+        temp_weapons = temp_weapons.sort((a, b) => (
+            a['id'] > b['id'] ? 1 : - 1
+        ));
+
+        setWeapons(temp_weapons);
+
+
+
 
     }, []);
 
@@ -67,10 +91,6 @@ export const WeaponProvider = props => {
         return unique;
 
     }
-
-
-
-
 
 
 

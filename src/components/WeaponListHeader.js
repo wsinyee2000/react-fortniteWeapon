@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import FilterCheckbox from './FilterCheckbox';
 import "./WeaponListHeader.css";
 import { HeaderContext } from './HeaderContext';
+import ascending from './img/ascending.png'
 
 
 // let handleSort_defaultValue = "DEFAULT";
@@ -79,7 +80,7 @@ function WeaponListHeader({ filterHandler, handleSort_defaultValue }) {
 
 
                 {/* button change direaction */}
-                <img id='header_direction' src='/ascending.png'  alt='ascending' onClick={filterHandler}/>
+                <img id='header_direction' src={ascending}  alt='ascending' onClick={filterHandler}/>
                     
 
 
