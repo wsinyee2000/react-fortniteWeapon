@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css",
-    "main.js": "/react-fortniteWeapon/static/js/main.8a200d07.chunk.js",
-    "main.js.map": "/react-fortniteWeapon/static/js/main.8a200d07.chunk.js.map",
+    "main.js": "/react-fortniteWeapon/static/js/main.e0775ca0.chunk.js",
+    "main.js.map": "/react-fortniteWeapon/static/js/main.e0775ca0.chunk.js.map",
     "runtime-main.js": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js",
     "runtime-main.js.map": "/react-fortniteWeapon/static/js/runtime-main.7f947090.js.map",
     "static/js/2.c6be4e72.chunk.js": "/react-fortniteWeapon/static/js/2.c6be4e72.chunk.js",
     "static/js/2.c6be4e72.chunk.js.map": "/react-fortniteWeapon/static/js/2.c6be4e72.chunk.js.map",
     "index.html": "/react-fortniteWeapon/index.html",
-    "precache-manifest.5a48d71a89a7e5bf1fda4fc9b95802e8.js": "/react-fortniteWeapon/precache-manifest.5a48d71a89a7e5bf1fda4fc9b95802e8.js",
+    "precache-manifest.08e4b603b9c13c7032e52ac03f0263e3.js": "/react-fortniteWeapon/precache-manifest.08e4b603b9c13c7032e52ac03f0263e3.js",
     "service-worker.js": "/react-fortniteWeapon/service-worker.js",
     "static/css/main.5f45ab8f.chunk.css.map": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css.map",
     "static/js/2.c6be4e72.chunk.js.LICENSE.txt": "/react-fortniteWeapon/static/js/2.c6be4e72.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.7f947090.js",
     "static/js/2.c6be4e72.chunk.js",
     "static/css/main.5f45ab8f.chunk.css",
-    "static/js/main.8a200d07.chunk.js"
+    "static/js/main.e0775ca0.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8cd82c5375082b62b795904c48dbb28",
+    "revision": "ea7338a06358ef9e11411626e67a33d5",
     "url": "/react-fortniteWeapon/index.html"
   },
   {
-    "revision": "ea2b3cf63c2bf18cbe3a",
+    "revision": "f1cbefbe7c751b8fa7c0",
     "url": "/react-fortniteWeapon/static/css/main.5f45ab8f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-fortniteWeapon/static/js/2.c6be4e72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea2b3cf63c2bf18cbe3a",
-    "url": "/react-fortniteWeapon/static/js/main.8a200d07.chunk.js"
+    "revision": "f1cbefbe7c751b8fa7c0",
+    "url": "/react-fortniteWeapon/static/js/main.e0775ca0.chunk.js"
   },
   {
     "revision": "53d751d11cf49eee0f67",
