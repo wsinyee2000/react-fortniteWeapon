@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/react-fortniteWeapon' exact component={Home} />
           <Route path='/weapons' exact component={ShowWeapons} />
           <Route path='/weapons/:id' component={WeaponDetail} />
         </Switch>

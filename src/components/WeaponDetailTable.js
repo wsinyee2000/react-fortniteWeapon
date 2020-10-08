@@ -1,6 +1,5 @@
 import React from 'react'
 import back_arrow from './img/back-arrow.png'
-import no_image from './img/no-image-available.jpg'
 
 function WeaponDetailTable(weapon) {
     return (

@@ -9,7 +9,7 @@ function Header() {
             <nav className="header">
                 <img src={fortnite_icon} alt="" />
                 <ul>
-                    <Link to='/'>
+                    <Link to='/react-fortniteWeapon'>
                         <li>Home</li>
                     </Link>
 

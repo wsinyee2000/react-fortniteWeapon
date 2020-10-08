@@ -57,7 +57,7 @@ export const WeaponProvider = props => {
 
         //change null images weapon to 'no image available'
         temp_weapons.forEach(weapon => {
-            weapon.images.background = (weapon.images.background === null) ? './img/no-image-available.jpg' : weapon.images.background
+            weapon.images.background = (weapon.images.background === null) ? 'https://www.freeiconspng.com/uploads/no-image-icon-15.png' : weapon.images.background
         });
 
         //remove same id weapon
